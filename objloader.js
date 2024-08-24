@@ -26,13 +26,13 @@ directionalLight.position.set(10, 10, 10).normalize();
 scene.add(directionalLight);
 
 const textureLoader = new TextureLoader();
-const texture = textureLoader.load('3D_model.jpg'); // Replace with your texture file path
+const texture = textureLoader.load('model/texture_2.png'); // Replace with your texture file path
 
 // Instantiate OBJLoader
 const loader = new OBJLoader();
 
 // Define the model to load
-const objToRender = '3D_model.obj'; // Path to your OBJ file
+const objToRender = 'model/3D_model.obj'; // Path to your OBJ file
 
 // Load the model
 loader.load(
